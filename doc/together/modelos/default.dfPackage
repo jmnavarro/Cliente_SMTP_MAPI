@@ -1,0 +1,79 @@
+package id40ayrdlmexkr0dlmf5vcc;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:design#Class#id4v13adls1c5o9dls1e48b.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#LibCorreo:oiref> 
+*/
+class reference3 {
+}/**
+@__ref <oiref:design#Class#id2yos8dlsyq0yfdlt1glzj.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#LibRed:oiref> 
+*/
+class reference4 {
+}/**
+@__ref <oiref:design#Class#id1z7nhdmbmb74idmbnmdft.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#LibUtils:oiref> 
+*/
+class reference {
+}/**
+@shapeType DependencyLink
+@__modelType link
+@__ref <oiref:design#Class#id4v13adls1c5o9dls1e48b.diagram:oiref><oihard>
+@automatic 
+*/
+class link20 {
+}/**
+@shapeType DependencyLink
+@__modelType link
+@__ref <oiref:design#Class#id2yos8dlsyq0yfdlt1glzj.diagram:oiref><oihard>
+@automatic 
+*/
+class link21 {
+}/**
+@__ref <oiref:design#Class#idnjl4dmoj54ccdmojakqs.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#STL:oiref> 
+*/
+class reference1 {
+}/**
+@__ref <oiref:design#Class#id10cgdq134ivvdq135qqt.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#LibConfiguracion:oiref> 
+*/
+class reference2 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions 
+<oigroup:<oiref:design#Class#idnjl4dmoj54ccdmojakqs.diagram:oiref>=390,230,90,63,0:oigroup>
+<oigroup:<oiref:design#Class#id4v13adls1c5o9dls1e48b.diagram.link3:oiref>=181,248,181,310,390,310:oigroup>
+<oigroup:<oiref:design#Class#id4v13adls1c5o9dls1e48b.diagram.link2:oiref>=216,248,216,270,390,270:oigroup>
+<oigroup:<oiref:design#Class#id2yos8dlsyq0yfdlt1glzj.diagram:oiref>=390,60,77,63,1:oigroup>
+<oigroup:<oiref:design#Class#id4v13adls1c5o9dls1e48b.diagram:oiref>=110,80,142,168,1:oigroup>
+<oigroup:<oiref:design#Class#id1z7nhdmbmb74idmbnmdft.diagram:oiref>=390,130,154,93,1:oigroup>
+<oigroup:<oiref:design#Class#id10cgdq134ivvdq135qqt.diagram:oiref>=390,300,134,93,1:oigroup>
+<oigroup:<oiref:design#Class#id4v13adls1c5o9dls1e48b.diagram.link11:oiref>=252,180,390,180:oigroup>
+<oigroup:<oiref:design#Class#id4v13adls1c5o9dls1e48b.diagram.link:oiref>=252,106,390,106:oigroup>
+
+
+
+
+*/
+class __positions {
+}

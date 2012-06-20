@@ -1,0 +1,238 @@
+package id4o6c2dlmexkr0dlmf5vli;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}/**
+@__ref <oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node1:oiref><oihard>
+@__modelType reference 
+*/
+class reference2 {
+}/**
+@__ref <oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node3:oiref><oihard>
+@__modelType reference 
+*/
+class reference4 {
+}/**
+@__ref <oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node2:oiref><oihard>
+@__modelType reference 
+*/
+class reference3 {
+}/**
+@__ref <oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node4:oiref><oihard>
+@__modelType reference 
+*/
+class reference5 {
+}/**
+@__ref <oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node6:oiref><oihard>
+@__modelType reference 
+*/
+class reference7 {
+}/**
+@__ref <oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node8:oiref><oihard>
+@__modelType reference 
+*/
+class reference9 {
+}/**
+@__ref <oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node10:oiref><oihard>
+@__modelType reference 
+*/
+class reference11 {
+}/**
+@__ref <oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node12:oiref><oihard>
+@__modelType reference 
+*/
+class reference13 {
+}}/**
+@__tags
+@shapeType UseCaseDiagram 
+*/
+class __tags {
+}/**
+@__options option.shadows = false
+option.formatting = UML
+option.showgrid = false
+option.snaptogrid = false 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node.link18:oiref>=112,305,158,305,158,256,205,256:oigroup>
+<oigroup:<oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node.link16:oiref>=112,352,139,352,139,372,166,372:oigroup>
+<oigroup:<oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node6:oiref>=166,362,238,21,1:oigroup>
+<oigroup:<oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node1:oiref>=482,287,187,30,0:oigroup>
+<oigroup:<oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node4:oiref>=239,306,120,21,1:oigroup>
+<oigroup:<oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node2:oiref>=170,160,255,21,1:oigroup>
+<oigroup:<oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node2.link:oiref>=425,171,554,171,554,287:oigroup>
+<oigroup:<oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node:oiref>=10,290,102,77,1:oigroup>
+<oigroup:<oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node10.link20:oiref>=289,245,289,181:oigroup>
+<oigroup:<oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node6.link:oiref>=404,372,622,372,622,317:oigroup>
+<oigroup:<oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node12:oiref>=156,497,257,21,1:oigroup>
+<oigroup:<oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node.link19:oiref>=41,367,75,466,108,510,156,510:oigroup>
+<oigroup:<oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node.link14:oiref>=38,290,120,150,170,117:oigroup>
+<oigroup:<oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node.link17:oiref>=73,367,145,442:oigroup>
+<oigroup:<oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node12.link:oiref>=413,507,575,507,575,317:oigroup>
+<oigroup:<oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node.link15:oiref>=112,316,239,316:oigroup>
+<oigroup:<oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node3:oiref>=170,90,212,37,0:oigroup>
+<oigroup:<oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node8:oiref>=145,432,274,21,1:oigroup>
+<oigroup:<oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node10.link:oiref>=373,256,518,256,518,287:oigroup>
+<oigroup:<oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node8.link:oiref>=419,442,528,442,528,317:oigroup>
+<oigroup:<oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node.link:oiref>=67,290,170,174:oigroup>
+<oigroup:<oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node10:oiref>=205,245,168,21,1:oigroup>
+<oigroup:<oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node3.link:oiref>=382,108,590,108,590,287:oigroup>
+*/
+class __positions {
+}/**
+@shapeType Actor
+@__modelType node
+@name Sistema externo 
+*/
+class node {
+/**
+@shapeType CommunicatesLink
+@__modelType link
+@__ref <oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node2:oiref><oihard> 
+*/
+class link {
+}/**
+@shapeType CommunicatesLink
+@__modelType link
+@__ref <oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node3:oiref><oihard> 
+*/
+class link14 {
+}/**
+@shapeType CommunicatesLink
+@__modelType link
+@__ref <oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node4:oiref><oihard> 
+*/
+class link15 {
+}/**
+@shapeType CommunicatesLink
+@__modelType link
+@__ref <oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node6:oiref><oihard> 
+*/
+class link16 {
+}/**
+@shapeType CommunicatesLink
+@__modelType link
+@__ref <oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node8:oiref><oihard> 
+*/
+class link17 {
+}/**
+@shapeType CommunicatesLink
+@__modelType link
+@__ref <oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node10:oiref><oihard> 
+*/
+class link18 {
+}/**
+@shapeType CommunicatesLink
+@__modelType link
+@__ref <oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node12:oiref><oihard> 
+*/
+class link19 {
+}}/**
+@shapeType UseCase
+@__modelType node
+@name Controlar la seguridad
+@2DLook 2D
+@difficulty medium
+*/
+class node1 {
+}/**
+@shapeType UseCase
+@__modelType node
+@name Seleccionar destinatarios
+@2DLook 2D
+*/
+class node3 {
+/**
+@shapeType IncludesLink
+@__modelType link
+@__ref <oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node1:oiref><oihard> 
+*/
+class link {
+}}/**
+@shapeType UseCase
+@__modelType node
+@name Componer mensaje de correo
+@2DLook 2D
+*/
+class node2 {
+/**
+@shapeType IncludesLink
+@__modelType link
+@__ref <oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node1:oiref><oihard> 
+*/
+class link {
+}}/**
+@shapeType UseCase
+@__modelType node
+@name Enviar correo
+@2DLook 2D
+*/
+class node4 {
+}/**
+@shapeType UseCase
+@__modelType node
+@name Configurar servidores SMTP
+@2DLook 2D
+*/
+class node6 {
+/**
+@shapeType IncludesLink
+@__modelType link
+@__ref <oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node1:oiref><oihard> 
+*/
+class link {
+}}/**
+@shapeType UseCase
+@__modelType node
+@name Gestionar destinatarios y grupos
+@2DLook 2D
+*/
+class node8 {
+/**
+@shapeType IncludesLink
+@__modelType link
+@__ref <oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node1:oiref><oihard> 
+*/
+class link {
+}}/**
+@shapeType UseCase
+@__modelType node
+@name Reenvío de correos
+@2DLook 2D
+*/
+class node10 {
+/**
+@shapeType IncludesLink
+@__modelType link
+@__ref <oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node1:oiref><oihard> 
+*/
+class link {
+}/**
+@shapeType GeneralizationLink
+@__modelType link
+@__ref <oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node2:oiref><oihard>
+*/
+class link20 {
+}}/**
+@shapeType UseCase
+@__modelType node
+@name Gestionar la bandeja de salida
+@2DLook 2D
+*/
+class node12 {
+/**
+@shapeType IncludesLink
+@__modelType link
+@__ref <oiref:design#Class#id4o6c2dlmexkr0dlmf5vli.node1:oiref><oihard> 
+*/
+class link {
+}}

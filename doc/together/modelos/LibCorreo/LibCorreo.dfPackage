@@ -1,0 +1,224 @@
+package id4v13adls1c5o9dls1e48b;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:design#Class#id6yntdlsyq0yfdlt0raxj.diagram:oiref><oihard>
+@__modelType reference
+@__imported
+@__hidden 
+*/
+class reference2 {
+}/**
+@shapeType DependencyLink
+@__modelType link
+@__ref <oiref:design#Class#id2yos8dlsyq0yfdlt1glzj.diagram:oiref><oihard> 
+*/
+class link {
+}/**
+@__ref <oiref:cpp#Class#ArchivoAdjunto:oiref><oihard>
+@__modelType reference
+@__hiddenMember <oiref:cpp#Member#ArchivoAdjunto#data:oiref>*/
+class reference5 {
+}/**
+@__ref <oiref:cpp#Class#ListaDestinatarios:oiref><oihard>
+@__modelType reference 
+*/
+class reference7 {
+}/**
+@__ref <oiref:cpp#Class#ListaArchivosAdjuntos:oiref><oihard>
+@__modelType reference 
+@__hidden
+*/
+class reference8 {
+}/**
+@shapeType DependencyLink
+@__modelType link
+@__ref <oiref:design#Class#id1z7nhdmbmb74idmbnmdft.diagram:oiref><oihard> 
+*/
+class link11 {
+}/**
+@shapeType DependencyLink
+@__modelType link
+@__ref <oiref:design#Class#id2yos8dlsyq0yfdlt1glzj.diagram:oiref><oihard>
+@automatic 
+*/
+class link23 {
+}/**
+@shapeType DependencyLink
+@__modelType link
+@__ref <oiref:design#Class#id40ayrdlmexkr0dlmf5vcc.diagram:oiref><oihard>
+@automatic 
+*/
+class link24 {
+}/**
+@__ref <oiref:cpp#Class#ServidorSMTP:oiref><oihard>
+@__modelType reference
+@__hiddenMember <oiref:cpp#Member#ServidorSMTP#getCuerpo#(##)#:oiref>
+@__hiddenMember 
+@__hiddenMember <oiref:cpp#Member#ServidorSMTP#getCabecera#(##)#:oiref>
+@__hiddenMember 
+@__hiddenMember 
+@__hiddenMember <oiref:cpp#Member#ServidorSMTP#m_socket:oiref> 
+@__hiddenMember <oiref:cpp#Member#ServidorSMTP#Crear#(##)#:oiref>
+@__hiddenMember 
+*/
+class reference1 {
+}/**
+@__ref <oiref:cpp#Class#ServidorMAPI:oiref><oihard>
+@__modelType reference 
+@__hiddenMember <oiref:cpp#Member#ServidorMAPI#loadMapiDLL#(##)#:oiref>
+@__hiddenMember <oiref:cpp#Member#ServidorMAPI#unloadMapiDLL#(##)#:oiref>
+@__hiddenMember <oiref:cpp#Member#ServidorMAPI#isMapiInstalled#(##)#:oiref>
+*/
+class reference9 {
+}/**
+@__ref <oiref:cpp#Class#Correo:oiref><oihard>
+@__modelType reference
+@hideOperations
+@__hiddenMember <oiref:cpp#Member#Correo#adjuntos:oiref>
+@__hiddenMember <oiref:cpp#Member#Correo#destinos:oiref> 
+*/
+class reference10 {
+}/**
+@__ref <oiref:cpp#Class#ServidorEnvio:oiref><oihard>
+@__modelType reference
+@__hiddenMember 
+@__hiddenMember 
+@__hiddenMember <oiref:cpp#Member#ServidorEnvio#$$constructor$$#(#ConfiguracionServidor#)#:oiref>
+*/
+class reference12 {
+}/**
+@__ref <oiref:cpp#Class#ServidoresDisponibles:oiref><oihard>
+@__modelType reference 
+*/
+class reference15 {
+}/**
+@__ref <oiref:cpp#Class#AuthSMTP:oiref><oihard>
+@__modelType reference 
+@__hidden
+*/
+class reference {
+}/**
+@__ref <oiref:cpp#Class#AuthLogin:oiref><oihard>
+@__modelType reference 
+@__hidden
+*/
+class reference3 {
+}/**
+@__ref <oiref:cpp#Class#AuthPlain:oiref><oihard>
+@__modelType reference 
+@__hidden
+*/
+class reference6 {
+}/**
+@__ref <oiref:cpp#Class#AuthSMTPFactory:oiref><oihard>
+@__modelType reference 
+@__hidden
+*/
+class reference14 {
+}/**
+@shapeType DependencyLink
+@__modelType link
+@__ref <oiref:design#Class#idnjl4dmoj54ccdmojakqs.diagram:oiref><oihard> 
+*/
+class link2 {
+}/**
+@__ref <oiref:cpp#Class#Base64:oiref><oihard>
+@__modelType reference 
+@hideAttributes
+*/
+class reference4 {
+}/**
+@shapeType DependencyLink
+@__modelType link
+@__ref <oiref:design#Class#id10cgdq134ivvdq135qqt.diagram:oiref><oihard> 
+*/
+class link3 {
+}/**
+@__ref <oiref:cpp#Class#Configuracion:oiref><oihard>
+@__modelType reference
+@__imported
+@backgroundColor 230,230,230 
+*/
+class reference11 {
+}}/**
+@__tags
+@shapeType ClassDiagram
+@backgroundColor 255,255,255
+*/
+class __tags {
+}/**
+@__options option.formatting = UML
+option.detail = Analysis 
+*/
+class __options {
+}/**
+@__positions 
+<oigroup:MemberLink#<oiref:cpp#Member#ServidorSMTP#authSMTP:oiref>=183,583,183,670,94,670,94,700:oigroup>
+<oigroup:<oiref:cpp#Class#AuthPlain:oiref>=120,870,80,80,1:oigroup>
+<oigroup:<oiref:cpp#Extends#ServidorMAPI#ServidorEnvio:oiref>=59,400,59,370,130,370,130,308:oigroup>
+<oigroup:<oiref:cpp#Member#ServidorMAPI#enviar#(##)#:oiref>=350,450,105,15,1:oigroup>
+<oigroup:<oiref:cpp#Class#ServidorSMTP:oiref>=150,390,99,193,1:oigroup>
+<oigroup:<oiref:cpp#Class#ServidorEnvio:oiref>=80,160,100,148,1:oigroup>
+<oigroup:<oiref:cpp#Member#ServidorEnvio#enviar#(#Correo#)#:oiref>=420,250,104,15,1:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#ServidorEnvio#lnkCorreo:oiref>=130,160,130,110:oigroup>
+<oigroup:<oiref:cpp#Class#ListaDestinatarios:oiref>=240,70,127,41,1:oigroup>
+<oigroup:<oiref:cpp#Member#ServidorMAPI#Crear#(##)#:oiref>=529,423,104,15,1:oigroup>
+<oigroup:<oiref:cpp#Member#ServidorMAPI#desconectar#(##)#:oiref>=350,430,105,15,1:oigroup>
+<oigroup:<oiref:cpp#Class#Base64:oiref>=280,170,80,85,1:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#ServidorSMTP#lnkAuthSMTPFactory:oiref>=216,583,216,670,421,670,421,720:oigroup>
+<oigroup:<oiref:cpp#Member#Correo#prioridad:oiref>=470,30,77,15,1:oigroup>
+<oigroup:<oiref:cpp#Class#ListaArchivosAdjuntos:oiref>=60,20,155,41,1:oigroup>
+<oigroup:<oiref:cpp#Class#ArchivoAdjunto:oiref>=430,10,110,118,1:oigroup>
+<oigroup:<oiref:cpp#Extends#ServidorSMTP#ServidorEnvio:oiref>=199,390,199,370,130,370,130,308:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:cpp#Member#Correo#destinos:oiref>=221,71,15,15,0:oigroup>
+<oigroup:<oiref:cpp#Class#Correo:oiref>=90,10,80,100,1:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#AuthSMTPFactory#lnkAuthPlain:oiref>=410,800,410,990,173,990,173,950:oigroup>
+<oigroup:<oiref:cpp#Member#ServidorEnvio#isConectado#(##)#:oiref>=460,240,97,15,1:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#ArchivoAdjunto#lnkBase64:oiref>=480,128,480,220,360,220:oigroup>
+<oigroup:<oiref:cpp#Class#AuthSMTPFactory:oiref>=360,720,123,80,1:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:cpp#Member#Correo#adjuntos:oiref>=396,24,30,15,0:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#AuthSMTPFactory#lnkAuthSMTP:oiref>=360,760,150,760:oigroup>
+<oigroup:<oiref:cpp#Class#AuthLogin:oiref>=10,870,80,80,1:oigroup>
+<oigroup:<oiref:design#Class#id6yntdlsyq0yfdlt0raxj.diagram:oiref>=450,490,106,115,1:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#ServidoresDisponibles#lnkServidorMAPI:oiref>=430,520,430,600,59,600,59,548:oigroup>
+<oigroup:<oiref:cpp#Class#ServidoresDisponibles:oiref>=350,440,155,80,1:oigroup>
+<oigroup:<oiref:cpp#Member#ServidorMAPI#isMapiInstalled#(##)#:oiref>=510,480,95,15,1:oigroup>
+<oigroup:<oiref:cpp#Class#Configuracion:oiref>=380,300,97,99,1:oigroup>
+<oigroup:<oiref:cpp#Member#ArchivoAdjunto#size:oiref>=40,70,107,15,1:oigroup>
+<oigroup:<oiref:cpp#Member#ServidorMAPI#conectar#(##)#:oiref>=356,424,104,15,1:oigroup>
+<oigroup:<oiref:cpp#Member#ServidorSMTP#conectar#(##)#:oiref>=505,437,104,15,1:oigroup>
+<oigroup:<oiref:cpp#Extends#AuthLogin#AuthSMTP:oiref>=70,870,70,850,110,850,110,788:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#ServidorEnvio#enviar#(#Correo#)#:oiref>=430,115,280,115:oigroup>
+<oigroup:<oiref:cpp#Extends#AuthPlain#AuthSMTP:oiref>=150,870,150,850,110,850,110,788:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#ArchivoAdjunto#lnkListaArchivosAdjuntos:oiref>=148,120,148,71:oigroup>
+<oigroup:<oiref:cpp#Member#ServidorSMTP#enviar#(##)#:oiref>=500,450,105,15,1:oigroup>
+<oigroup:<oiref:cpp#Class#ServidorMAPI:oiref>=10,400,98,148,1:oigroup>
+<oigroup:<oiref:cpp#Member#ServidorEnvio#desconectar#(##)#:oiref>=410,230,104,15,1:oigroup>
+<oigroup:<oiref:cpp#Member#ServidorSMTP#desconectar#(##)#:oiref>=490,440,105,15,1:oigroup>
+<oigroup:<oiref:cpp#Class#AuthSMTP:oiref>=70,700,80,88,1:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#AuthSMTPFactory#lnkAuthLogin:oiref>=440,800,440,1020,53,1020,53,950:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#Correo#lnkListaDestinatarios:oiref>=360,129,360,200:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#ServidorSMTP#lnkBase64:oiref>=230,390,230,230,280,230:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#ServidoresDisponibles#lnkConfiguracion:oiref>=429,440,429,399:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#Correo#destinos:oiref>=170,90,240,90:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#ServidoresDisponibles#lnkServidorSMTP:oiref>=350,464,249,464:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#Correo#adjuntos:oiref>=170,43,430,43:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#ServidorSMTP#lnkAuthSMTP:oiref>=94,410,94,374,255,374,255,338:oigroup>
+<oigroup:<oiref:cpp#Member#ServidorEnvio#$$constructor$$#(#ConfiguracionServidor#)#:oiref>=400,180,104,15,1:oigroup>
+
+
+
+
+
+
+
+
+*/
+class __positions {
+}

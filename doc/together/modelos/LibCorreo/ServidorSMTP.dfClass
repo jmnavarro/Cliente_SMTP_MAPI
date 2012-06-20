@@ -1,0 +1,51 @@
+package id6yntdlsyq0yfdlt0raxj;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:cpp#Class#ServidorEnvio:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:cpp#Class#ServidorSMTP:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference3 {
+}/**
+@__ref <oiref:cpp#Class#RedCliente:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference8 {
+}}/**
+
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options option.links = Rectilinear
+option.formatting = UML
+option.detail = Analysis
+option.shadows = false 
+*/
+class __options {
+}/**
+@__positions 
+<oigroup:<oiref:cpp#Class#ServidorEnvio:oiref>=270,60,100,163,1:oigroup>
+<oigroup:<oiref:cpp#Class#ServidorSMTP:oiref>=270,221,99,253,1:oigroup>
+<oigroup:<oiref:cpp#Class#RedCliente:oiref>=550,280,80,78,1:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:cpp#Member#ServidorSMTP#m_socket:oiref>=531,300,15,15,0:oigroup>
+<oigroup:<oiref:design#Class#id6yntdlsyq0yfdlt0raxj.node.link:oiref>=:oigroup>
+<oigroup:<oiref:cpp#Extends#ServidorSMTP#ServidorEnvio:oiref>=270,240,270,223:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#ServidorSMTP#m_socket:oiref>=369,319,550,319:oigroup>
+
+*/
+class __positions {
+}

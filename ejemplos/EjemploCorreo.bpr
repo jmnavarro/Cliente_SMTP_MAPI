@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value=".\exe\EjemploCorreo.exe"/>
+    <OBJFILES value="obj\EjemploCorreo.obj obj\main.obj"/>
+    <RESFILES value="EjemploCorreo.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) src\main.dfm"/>
+    <LIBFILES value="..\lib\LibCorreo_debug.lib ..\..\LibUtils\lib\LibUtils_Debug.lib 
+      ..\..\LibRed\lib\LibRed_Debug.lib 
+      ..\..\LibConfiguracion\lib\LibConfiguracion_debug.lib"/>
+    <LIBRARIES value="bcbie.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib bcbie.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi"/>
+    <PATHCPP value=".;src"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT;_NO_VCL;_RTLDLL;USEPACKAGES"/>
+    <MAINSOURCE value="EjemploCorreo.cpp"/>
+    <INCLUDEPATH value="src;Ejemplos;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="c:\cbuilder6\lib\debug;src;Ejemplos;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-Isrc -IEjemplos -I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp 
+      -D_DEBUG -boa"/>
+    <CFLAG1 value="-vGc -vGt -vGd -Od -Q -Vx -Ve -X- -r- -a2 -6 -b- -k -y -v -vi- -tWD -tWM -c"/>
+    <PFLAGS value="-N2.\obj -N0.\obj -$Y+ -$W -$R -$Q -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-I.\obj -D&quot;&quot; -aa -Tpe -x -Gn -Gi -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(PACKAGES) $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="cg32.lib $(LIBFILES) $(LIBRARIES) import32.lib cw32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="EjemploCorreo.res" FORMNAME="" UNITNAME="EjemploCorreo.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="EjemploCorreo.cpp" FORMNAME="" UNITNAME="EjemploCorreo" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\main.cpp" FORMNAME="MainForm" UNITNAME="main" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\lib\LibCorreo_debug.lib" FORMNAME="" UNITNAME="LibCorreo_debug.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\LibUtils\lib\LibUtils_Debug.lib" FORMNAME="" UNITNAME="LibUtils_Debug.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\LibRed\lib\LibRed_Debug.lib" FORMNAME="" UNITNAME="LibRed_Debug.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\LibConfiguracion\lib\LibConfiguracion_debug.lib" FORMNAME="" UNITNAME="LibConfiguracion_debug.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=3082
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+Bin\Release\OcxSuperGraf_BPK.bpl=OcxSuperGraf_BPK
+
+[HistoryLists\hlIncludePath]
+Count=7
+Item0=src;Ejemplos;$(BCB)\include;$(BCB)\include\vcl
+Item1=$(BCB)\include;$(BCB)\include\vcl
+Item2=Ejemplos;$(BCB)\include;$(BCB)\include\vcl
+Item3=Ejemplos;C:\src\LibCorreo\Ejemplos;$(BCB)\include;$(BCB)\include\vcl
+Item4=C:\src\LibCorreo\Ejemplos;$(BCB)\include;$(BCB)\include\vcl
+Item5=C:\CBuilder6\Projects;C:\src\LibCorreo\Ejemplos;C:\src\LibCorreo;$(BCB)\include;$(BCB)\include\vcl
+Item6=C:\src\LibCorreo;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=5
+Item0=c:\cbuilder6\lib\debug;src;Ejemplos;$(BCB)\lib\obj;$(BCB)\lib
+Item1=$(BCB)\lib\obj;$(BCB)\lib
+Item2=Ejemplos;$(BCB)\lib\obj;$(BCB)\lib
+Item3=C:\CBuilder6\Projects;C:\src\LibCorreo\Ejemplos;C:\src\LibCorreo;$(BCB)\lib\obj;$(BCB)\lib
+Item4=C:\src\LibCorreo;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[HistoryLists\hlIntOutputDir]
+Count=3
+Item0=.\obj
+Item1=.\obj\
+Item2=.\ejemplos\obj
+
+[HistoryLists\hlFinalOutputDir]
+Count=4
+Item0=.\exe\
+Item1=.\bin\
+Item2=.\ejemplos\exe\
+Item3=.\ejemplos\exe
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=1
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value=".\exe\LibCorreoTest.exe"/>
+    <OBJFILES value="obj_debug\LibCorreoTest.obj obj_debug\ServidorSMTPTest.obj 
+      obj_debug\CorreoTest.obj obj_debug\ServidoresDisponiblesTest.obj 
+      obj_debug\ServidorMAPITest.obj obj_debug\ArchivoAdjuntoTest.obj 
+      obj_debug\ParametrosTest.obj"/>
+    <RESFILES value="LibCorreoTest.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES)"/>
+    <LIBFILES value="..\..\cppunit\bin\culib.lib ..\..\cppunit\bin\TestRunnerDlg.lib 
+      ..\lib\LibCorreo_debug.lib ..\..\LibUtils\lib\LibUtils_Debug.lib 
+      ..\..\LibRed\lib\LibRed_Debug.lib 
+      ..\..\LibConfiguracion\lib\LibConfiguracion_debug.lib"/>
+    <LIBRARIES value="bcbie.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib bcbie.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi"/>
+    <PATHCPP value=".;src"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT;_RTLDLL;USEPACKAGES"/>
+    <MAINSOURCE value="LibCorreoTest.cpp"/>
+    <INCLUDEPATH value="src;h;$(BCB)\include;$(BCB)\include\vcl;..\..\cppunit\borland\TestRunner;..\..\cppunit\test\framework;..\..\LibUtils\h"/>
+    <LIBPATH value="c:\cbuilder6\lib\debug;src;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-Isrc -Ih -I$(BCB)\include -I$(BCB)\include\vcl 
+      -I..\..\cppunit\borland\TestRunner -I..\..\cppunit\test\framework 
+      -I..\..\LibUtils\h -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-vGc -vGt -vGd -Od -Q -Vx -Ve -X- -r- -a2 -6 -b- -k -y -v -vi- -c -tW -tWM"/>
+    <PFLAGS value="-N2.\obj_debug -N0.\obj_debug -$Y+ -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-I.\obj_debug -D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="cg32.lib $(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="LibCorreoTest.res" FORMNAME="" UNITNAME="LibCorreoTest.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="LibCorreoTest.cpp" FORMNAME="" UNITNAME="LibCorreoTest" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\cppunit\bin\culib.lib" FORMNAME="" UNITNAME="culib.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\cppunit\bin\TestRunnerDlg.lib" FORMNAME="" UNITNAME="TestRunnerDlg.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\lib\LibCorreo_debug.lib" FORMNAME="" UNITNAME="LibCorreo_debug.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\LibUtils\lib\LibUtils_Debug.lib" FORMNAME="" UNITNAME="LibUtils_Debug.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\LibRed\lib\LibRed_Debug.lib" FORMNAME="" UNITNAME="LibRed_Debug.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\LibConfiguracion\lib\LibConfiguracion_debug.lib" FORMNAME="" UNITNAME="LibConfiguracion_debug.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\ServidorSMTPTest.cpp" FORMNAME="" UNITNAME="ServidorSMTPTest.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\CorreoTest.cpp" FORMNAME="" UNITNAME="CorreoTest.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\ServidoresDisponiblesTest.cpp" FORMNAME="" UNITNAME="ServidoresDisponiblesTest.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\ServidorMAPITest.cpp" FORMNAME="" UNITNAME="ServidorMAPITest.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\ArchivoAdjuntoTest.cpp" FORMNAME="" UNITNAME="ArchivoAdjuntoTest.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="src\ParametrosTest.cpp" FORMNAME="" UNITNAME="ParametrosTest" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=3082
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+Bin\Release\OcxSuperGraf_BPK.bpl=OcxSuperGraf_BPK
+
+[HistoryLists\hlIncludePath]
+Count=26
+Item0=src;h;$(BCB)\include;$(BCB)\include\vcl;..\..\cppunit\borland\TestRunner;..\..\cppunit\test\framework;..\..\LibUtils\h
+Item1=src;Test;h;$(BCB)\include;$(BCB)\include\vcl;..\..\..\cppunit\borland\TestRunner;..\..\..\cppunit\test\framework;..\..\LibUtils\h
+Item2=Test;h;$(BCB)\include;$(BCB)\include\vcl;..\..\..\cppunit\borland\TestRunner;..\..\..\cppunit\test\framework;..\..\LibUtils\h
+Item3=Test;h;$(BCB)\include;$(BCB)\include\vcl;..\..\..\cppunit\borland\TestRunner;..\..\..\cppunit\test\framework
+Item4=h;$(BCB)\include;$(BCB)\include\vcl;..\..\..\cppunit\borland\TestRunner;..\..\..\cppunit\test\framework
+Item5=C:\CBuilder6\Projects;Test;$(BCB)\include;$(BCB)\include\vcl;..\cppunit\borland\TestRunner;..\cppunit\test\framework
+Item6=Test;$(BCB)\include;$(BCB)\include\vcl;..\cppunit\borland\TestRunner;..\cppunit\test\framework
+Item7=$(BCB)\include;$(BCB)\include\vcl;..\cppunit\borland\TestRunner;..\cppunit\test\framework
+Item8=Test;$(BCB)\include;$(BCB)\include\vcl;C:\src\CppUnit17BCB\borland\TestRunner;C:\src\CppUnit17BCB\test\framework
+Item9=$(BCB)\include;$(BCB)\include\vcl;C:\src\CppUnit17BCB\borland\TestRunner;C:\src\CppUnit17BCB\test\framework
+Item10=..\LibRed\src;src;Test;C:\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;C:\src\CppUnit17BCB\borland\TestRunner;C:\src\CppUnit17BCB\test\framework
+Item11=src;Test;C:\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;C:\src\CppUnit17BCB\borland\TestRunner;C:\src\CppUnit17BCB\test\framework
+Item12=C:\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;C:\src\CppUnit17BCB\borland\TestRunner;C:\src\CppUnit17BCB\test\framework
+Item13=src\servidor;src\correo;Test;C:\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;C:\src\CppUnit17BCB\borland\TestRunner;C:\src\CppUnit17BCB\test\framework
+Item14=src\servidor;src\correo;C:\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;C:\src\CppUnit17BCB\borland\TestRunner;C:\src\CppUnit17BCB\test\framework;.\include\correo;.\Test;.\include\servidor
+Item15=C:\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;C:\src\CppUnit17BCB\borland\TestRunner;C:\src\CppUnit17BCB\test\framework;.\include\correo;.\Test;.\include\servidor
+Item16=src\servidor;src\correo;C:\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;C:\src\CppUnit17BCB\borland\TestRunner;C:\src\CppUnit17BCB\test\framework;.\include\correo;.\Test
+Item17=src\correo;C:\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;C:\src\CppUnit17BCB\borland\TestRunner;C:\src\CppUnit17BCB\test\framework;.\include\correo;.\Test
+Item18=src\correo;C:\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;C:\src\CppUnit17BCB\borland\TestRunner;C:\src\CppUnit17BCB\test\framework;.\include;.\Test
+Item19=C:\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;C:\src\CppUnit17BCB\borland\TestRunner;C:\src\CppUnit17BCB\test\framework;.\include;.\Test
+Item20=C:\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;C:\src\CppUnit17BCB\borland\TestRunner;C:\src\CppUnit17BCB\test\framework;./include;./Test
+Item21=C:\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;C:\src\CppUnit17BCB\borland\TestRunner;C:\src\CppUnit17BCB\test\framework;.\include
+Item22=..\src;C:\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;C:\src\CppUnit17BCB\borland\TestRunner;C:\src\CppUnit17BCB\test\framework;C:\src\LibCorreo\include
+Item23=..\src;C:\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;C:\src\CppUnit17BCB\borland\TestRunner;C:\src\CppUnit17BCB\test\framework
+Item24=C:\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;C:\src\CppUnit17BCB\borland\TestRunner
+Item25=..\src;..\..\CppUnit17BCB\borland\culib;C:\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=15
+Item0=src;$(BCB)\lib\obj;$(BCB)\lib
+Item1=src;c:\cbuilder6\lib\debug;Test;$(BCB)\lib\obj;$(BCB)\lib
+Item2=c:\cbuilder6\lib\debug;Test;$(BCB)\lib\obj;$(BCB)\lib
+Item3=$(BCB)\lib\obj;$(BCB)\lib
+Item4=C:\CBuilder6\Projects;c:\cbuilder6\lib\debug;Test;$(BCB)\lib\obj;$(BCB)\lib
+Item5=Test;$(BCB)\lib\obj;$(BCB)\lib
+Item6=Test;C:\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item7=C:\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item8=..\LibRed\src;src;Test;C:\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item9=src;Test;C:\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item10=src\servidor;src\correo;Test;C:\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item11=src\servidor;src\correo;.\Test;C:\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item12=src\correo;.\Test;C:\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item13=.\Test;C:\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item14=..\src;..\..\CppUnit17BCB\borland\culib;C:\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=2
+Item0=_DEBUG
+Item1=_DEBUG;LIBCORREO_BUILDING
+
+[HistoryLists\hlIntOutputDir]
+Count=6
+Item0=.\obj_debug
+Item1=.\obj
+Item2=.\Test\obj
+Item3=./Test/obj
+Item4=./obj
+Item5=./out
+
+[HistoryLists\hlFinalOutputDir]
+Count=9
+Item0=.\exe\
+Item1=.\bin\
+Item2=.\Test\exe\
+Item3=.\Test\exe
+Item4=.\Test\bin\
+Item5=./Test/bin\
+Item6=./Test/bin
+Item7=./bin\
+Item8=./bin
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=1
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

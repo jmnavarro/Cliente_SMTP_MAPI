@@ -1,0 +1,161 @@
+package id6sxhdmezd2h0dmf1vwwe;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:design#Class#id6sxhdmezd2h0dmf1vwwe.node:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}/**
+@__ref <oiref:design#Class#id6sxhdmezd2h0dmf1vwwe.node28:oiref><oihard>
+@__modelType reference 
+*/
+class reference29 {
+}/**
+@__ref <oiref:design#Class#id6sxhdmezd2h0dmf1vwwe.node31:oiref><oihard>
+@__modelType reference 
+*/
+class reference32 {
+}}/**
+
+@__tags
+@shapeType SequenceDiagram
+@__viewType collaborationView 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions 
+*/
+class __positions {
+}/**
+@__positions <oigroup:<oiref:design#Class#id6sxhdmezd2h0dmf1vwwe.node.link30:oiref>=121,110,350,110,350,180:oigroup>
+<oigroup:<oiref:design#Class#id6sxhdmezd2h0dmf1vwwe.node.link35:oiref>=88,177,148,15,1:oigroup>
+<oigroup:Composite#$messageInplaceEditing#<oiref:design#Class#id6sxhdmezd2h0dmf1vwwe.node28.link33:oiref>=0,0,194,15,1:oigroup>
+<oigroup:<oiref:design#Class#id6sxhdmezd2h0dmf1vwwe.node:oiref>=48,55,73,82,1:oigroup>
+<oigroup:<oiref:design#Class#id6sxhdmezd2h0dmf1vwwe.node28.link34:oiref>=350,240,350,270,145,270:oigroup>
+<oigroup:<oiref:design#Class#id6sxhdmezd2h0dmf1vwwe.node31:oiref>=20,240,125,60,1:oigroup>
+<oigroup:<oiref:design#Class#id6sxhdmezd2h0dmf1vwwe.node28.link33:oiref>=160,270,194,15,1:oigroup>
+<oigroup:Composite#$messageInplaceEditing#<oiref:design#Class#id6sxhdmezd2h0dmf1vwwe.node.link:oiref>=0,0,255,15,1:oigroup>
+<oigroup:<oiref:design#Class#id6sxhdmezd2h0dmf1vwwe.node28:oiref>=270,180,160,60,0:oigroup>
+<oigroup:<oiref:design#Class#id6sxhdmezd2h0dmf1vwwe.node.link:oiref>=138,89,255,15,1:oigroup>
+<oigroup:<oiref:design#Class#id6sxhdmezd2h0dmf1vwwe.node.link37:oiref>=84,137,84,240:oigroup>
+<oigroup:Composite#$messageInplaceEditing#<oiref:design#Class#id6sxhdmezd2h0dmf1vwwe.node.link35:oiref>=0,0,148,15,1:oigroup>
+@__viewType collaborationView 
+*/
+class __positions27 {
+}/**
+@shapeType Object
+@__modelType node
+@name cliente
+@stereotype actor 
+*/
+class node {
+/**
+@shapeType MessageLink
+@__modelType link
+@__ref <oiref:design#Class#id6sxhdmezd2h0dmf1vwwe.node28:oiref><oihard>
+@sendingInstant 135
+@processingDuration 80
+@sequenceNumber 1
+@diagram_uniqe_name <oiref:design#Class#id6sxhdmezd2h0dmf1vwwe.diagram:oiref>
+@operation <oiref:cpp#Member#ServidoresDisponibles#CrearServidor#(#Configuracion*#)#:oiref>
+@operationNameAsText 'CrearServidor(ArsConfiguracionComun):void' 
+*/
+class link {
+}/**
+@shapeType CollaborationLink
+@__modelType link
+@__ref <oiref:design#Class#id6sxhdmezd2h0dmf1vwwe.node28:oiref><oihard> 
+*/
+class link30 {
+}/**
+@shapeType MessageLink
+@__modelType link
+@__ref <oiref:design#Class#id6sxhdmezd2h0dmf1vwwe.node31:oiref><oihard>
+@sendingInstant 235
+@processingDuration 20
+@sequenceNumber 2
+@diagram_uniqe_name <oiref:design#Class#id6sxhdmezd2h0dmf1vwwe.diagram:oiref>
+@operation <oiref:cpp#Member#ServidorEnvio#enviar#(#Correo#)#:oiref>
+@operationNameAsText 'enviar(Correo):int' 
+*/
+class link35 {
+}/**
+@shapeType CollaborationLink
+@__modelType link
+@__ref <oiref:design#Class#id6sxhdmezd2h0dmf1vwwe.node31:oiref><oihard> 
+*/
+class link37 {
+}}/**
+@shapeType Object
+@__modelType node
+@name  
+*/
+class node28 {
+/**
+@shapeType DependencyLink
+@__modelType link
+@__ref <oiref:cpp#Class#ServidoresDisponibles:oiref><oihard> 
+*/
+class link {
+}/**
+@shapeType Activation
+@__modelType node
+@name Activation1
+@activationMessage <oiref:design#Class#id6sxhdmezd2h0dmf1vwwe.node.link:oiref> 
+*/
+class node {
+}/**
+@shapeType MessageLink
+@__modelType link
+@__ref <oiref:design#Class#id6sxhdmezd2h0dmf1vwwe.node31:oiref><oihard>
+@sendingInstant 155
+@processingDuration 50
+@sequenceNumber 1.1
+@diagram_uniqe_name <oiref:design#Class#id6sxhdmezd2h0dmf1vwwe.diagram:oiref>
+@operation <oiref:cpp#Member#ServidorEnvio#Crear#(##)#:oiref>
+@operationNameAsText 'Crear():ServidorEnvio *'
+@creationMessage true 
+*/
+class link33 {
+}/**
+@shapeType CollaborationLink
+@__modelType link
+@__ref <oiref:design#Class#id6sxhdmezd2h0dmf1vwwe.node31:oiref><oihard> 
+*/
+class link34 {
+}}/**
+@shapeType Object
+@__modelType node
+@name srv
+@created true*/
+class node31 {
+/**
+@shapeType DependencyLink
+@__modelType link
+@__ref <oiref:cpp#Class#ServidorEnvio:oiref><oihard> 
+*/
+class link {
+}/**
+@shapeType Activation
+@__modelType node
+@name Activation2
+@activationMessage <oiref:design#Class#id6sxhdmezd2h0dmf1vwwe.node28.link33:oiref> 
+*/
+class node {
+}/**
+@shapeType Activation
+@__modelType node
+@name Activation3
+@activationMessage <oiref:design#Class#id6sxhdmezd2h0dmf1vwwe.node.link35:oiref> 
+*/
+class node36 {
+}}

@@ -1,0 +1,78 @@
+package id4gas2dmltfvhbdmltiloe;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:cpp#Class#ServidorSMTP:oiref><oihard>
+@__modelType reference
+@__imported
+@__hiddenMember <oiref:cpp#Member#ServidorSMTP#getCuerpo#(##)#:oiref>
+@__hiddenMember 
+@__hiddenMember 
+@__hiddenMember <oiref:cpp#Member#ServidorSMTP#getCabecera#(##)#:oiref>
+@__hiddenMember 
+@__hiddenMember 
+@__hiddenMember <oiref:cpp#Member#ServidorSMTP#m_socket:oiref> 
+@__hiddenMember <oiref:cpp#Member#ServidorSMTP#lnkAuthSMTP:oiref>
+*/
+class reference {
+}/**
+@__ref <oiref:cpp#Class#AuthSMTP:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference1 {
+}/**
+@__ref <oiref:cpp#Class#AuthLogin:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference2 {
+}/**
+@__ref <oiref:cpp#Class#AuthPlain:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference4 {
+}/**
+@__ref <oiref:cpp#Class#AuthSMTPFactory:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference13 {
+}}/**
+
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options option.formatting = UML
+option.detail = Analysis 
+*/
+class __options {
+}/**
+@__positions 
+<oigroup:Composite#supplierQualifier#MemberLink#<oiref:cpp#Member#ServidorSMTP#authSMTP:oiref>=422,150,64,15,0:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#AuthSMTPFactory#lnkAuthSMTP:oiref>=290,210,290,180,490,180:oigroup>
+<oigroup:<oiref:cpp#Class#AuthSMTP:oiref>=490,130,80,88,1:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#ServidorSMTP#lnkAuthSMTP:oiref>=160,239,450,239:oigroup>
+<oigroup:<oiref:cpp#Extends#AuthPlain#AuthSMTP:oiref>=570,300,570,280,530,280,530,218:oigroup>
+<oigroup:<oiref:cpp#Member#AuthLogin#doLogin#(##)#:oiref>=336,411,77,15,1:oigroup>
+<oigroup:<oiref:cpp#Class#ServidorSMTP:oiref>=30,90,130,238,0:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#ServidorSMTP#authSMTP:oiref>=160,150,490,150:oigroup>
+<oigroup:<oiref:cpp#Member#AuthPlain#doLogin#(##)#:oiref>=451,412,77,15,1:oigroup>
+<oigroup:<oiref:cpp#Class#AuthPlain:oiref>=540,300,80,80,1:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#AuthSMTPFactory#lnkAuthLogin:oiref>=320,290,320,410,480,410,480,380:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:cpp#Member#ServidorSMTP#authSMTP:oiref>=471,131,15,15,0:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#AuthSMTPFactory#lnkAuthPlain:oiref>=300,290,300,430,573,430,573,380:oigroup>
+<oigroup:<oiref:cpp#Class#AuthLogin:oiref>=440,300,80,80,1:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#ServidorSMTP#lnkAuthSMTPFactory:oiref>=160,250,240,250:oigroup>
+<oigroup:<oiref:cpp#Class#AuthSMTPFactory:oiref>=240,210,123,80,1:oigroup>
+<oigroup:<oiref:cpp#Extends#AuthLogin#AuthSMTP:oiref>=490,300,490,280,530,280,530,218:oigroup>
+*/
+class __positions {
+}
